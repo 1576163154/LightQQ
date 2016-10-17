@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ecf0ee"
+                android:orientation="vertical">
+
+    <xion.lightqq.widget.CirclePortraitView
+        android:id="@+id/piv_login"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/ll_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/sherlock"></xion.lightqq.widget.CirclePortraitView>
+
+    <LinearLayout
+        android:id="@+id/ll_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_login"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:orientation="vertical">
+
+        <xion.lightqq.widget.ClearEditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawablePadding="17dp"
+            android:drawableRight="@drawable/deleteicon"
+            android:drawableStart="@drawable/usericon"
+            android:gravity="center_vertical"
+            android:hint="@string/loginhint1"
+            android:maxLines="1"
+            android:textColorHint="@color/textHint"
+            android:textSize="18sp">
+        </xion.lightqq.widget.ClearEditText>
+
+        <xion.lightqq.widget.ClearEditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawablePadding="17dp"
+            android:drawableRight="@drawable/deleteicon"
+            android:drawableStart="@drawable/passwordicon"
+            android:gravity="center_vertical"
+            android:hint="@string/loginhint2"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textColorHint="@color/textHint"
+            android:textSize="18sp">
+        </xion.lightqq.widget.ClearEditText>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_login"
+        android:text="@string/login"
+        android:textColor="#ffffff"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/failedtologin"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:padding="13dp"
+        android:textColor="@color/btn_default"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/newuser"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/btn_default"
+        android:padding="13dp"
+        android:textSize="15sp"/>
+</RelativeLayout>
