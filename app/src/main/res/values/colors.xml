@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="white">#ffffff</color>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="textHint">#a7a6a7</color>
-    <color name="btn_press">#2e9ccf</color>
-    <color name="btn_default">#03a4fb</color>
+    <color name="textHintGray">#bdbabd</color>
+    <color name="btn_press">#34aee7</color>
+    <color name="btn_default">#03cefb</color>
+    <color name="bluefont">#09bef0</color>
+    <color name="light_gray">#d8d8d7</color>
+    <color name="blackfont">#121213</color>
+    <color name="group_gray">#efefef</color>
+    <color name="green_num">#40e40e</color>
+    <color name="deepgray">#8c8e8c</color>
+    <color name="bubblered">#dd391c</color>
+    <color name="scan_introduction">#dd661c</color>
+    <color name="scan_resultshapesolid">#f7e37c</color>
+    <color name="themeblue">#09bef0</color>
+
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+
 </resources>

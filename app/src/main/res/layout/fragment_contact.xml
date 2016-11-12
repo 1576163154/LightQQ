@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ll_contactroot"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_contactphonebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:src="@drawable/circle"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:padding="7dp"
+                android:src="@drawable/phonebook"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.85"
+            android:gravity="center_vertical"
+            android:text="@string/phonebook"
+            android:textColor="@color/blackfont"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.75dp"
+        android:background="@color/textHintGray"/>
+
+    <LinearLayout
+        android:id="@+id/ll_contactgroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:src="@drawable/deepbluecircle"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:padding="7dp"
+                android:src="@drawable/justscanit"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.85"
+            android:gravity="center_vertical"
+            android:text="@string/group"
+            android:textColor="@color/blackfont"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.75dp"
+        android:background="@color/textHintGray"/>
+
+    <LinearLayout
+        android:id="@+id/ll_contactdisscussgroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:src="@drawable/redcircle"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:padding="7dp"
+                android:src="@drawable/discuss"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.85"
+            android:gravity="center_vertical"
+            android:text="@string/discussgroup"
+            android:textColor="@color/blackfont"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.75dp"
+        android:background="@color/textHintGray"/>
+
+    <ExpandableListView
+        android:id="@+id/elv_friendlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:groupIndicator="@null"
+        android:divider="#8a8c8b"
+        android:dividerHeight="1dp"></ExpandableListView>
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/rl_tittle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#09bef0"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/iv_leftarrow"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="3dp"
+            android:src="@drawable/leftarrow" />
+
+        <ImageView
+            android:id="@+id/iv_qqicon"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/iv_leftarrow"
+            android:src="@drawable/qq" />
+        <!--<TextView-->
+        <!--android:layout_toRightOf="@id/iv_qqicon"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:text="选择国家和地区"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="18sp"-->
+        <!--android:gravity="center_vertical"/>-->
+
+        <SearchView
+            android:id="@+id/sv_regchoose"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:iconifiedByDefault="true"
+            android:queryHint="@string/searchhint"></SearchView>
+
+
+    </RelativeLayout>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ExpandableListView
+            android:layout_marginLeft="13dp"
+            android:id="@+id/elv_regchoosecountry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></ExpandableListView>
+        <xion.lightqq.widget.RightSearchView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"/>
+    </FrameLayout>
+
+</LinearLayout>

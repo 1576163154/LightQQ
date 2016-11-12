@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="13dp"
+                android:gravity="center_vertical">
+
+    <xion.lightqq.widget.CirclePortraitView
+        android:id="@+id/cpv_friendlist_childportrait"
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        android:src="@drawable/portrait"/>
+
+    <RelativeLayout
+        android:padding="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/cpv_friendlist_childportrait">
+
+        <TextView
+            android:id="@+id/tv_friendlist_childname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"/>
+
+        <ImageView
+            android:id="@+id/iv_friendlist_childviporsvip"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_alignBottom="@id/tv_friendlist_childname"
+            android:layout_toRightOf="@id/tv_friendlist_childname"/>
+
+        <TextView
+            android:id="@+id/tv_friendlist_childstate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tv_friendlist_childname"
+            android:layout_below="@+id/tv_friendlist_childname"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/tv_friendlist_childsignature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/tv_friendlist_childstate"
+            android:layout_toRightOf="@id/tv_friendlist_childstate"
+            android:maxEms="18"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="14sp"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_friendlist_internettype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"/>
+
+</RelativeLayout>

@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="xion.lightqq">
 
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/qqlogo"
@@ -15,7 +20,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.MainActivity"/>
+        <activity android:name=".activity.ChooseCountryActivity"/>
+        <activity android:name=".activity.QRScanActivity"/>
+        <activity android:name=".activity.ScanResultActivity"/>
+        <activity android:name=".activity.AddActivity"/>
+        <activity android:name=".activity.AddFriendorGroupActivity"/>
+        <activity android:name=".activity.GroupManageActivity"/>
         <!--<activity android:name=".activity.LoginActivity"/>-->
+        <activity android:name=".activity.RegActivity"/>
     </application>
 
 </manifest>

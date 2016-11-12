@@ -7,11 +7,63 @@
     <string name="newuser">新用户</string>
     <string name="loginhint1">QQ号/手机号/邮箱</string>
     <string name="loginhint2">密码</string>
-<!--标题栏-->
+    <!--注册页面-->
+    <string name="phonenumbertitle">填写手机号码</string>
+    <string name="ChineseTelCode">+86</string>
+    <string name="inputphonenumber">请输入你的手机号码</string>
+    <string name="btnnext">下一步</string>
+    <string name="readandagree">我已阅读并同意</string>
+    <string name="termandprivacypolitics">使用条款和隐私政策</string>
+
+    <!--注册跳转选择国家-->
+    <string name="searchhint">搜索国家或地区</string>
+    //定义ExpandableListView child国家和 代码数组
+    <!--主页-->
+    <!--主页标题栏-->
     <string name="qqlight">QQ轻聊版</string>
     <string name="search_hint">搜索</string>
     <string name="groupchat">多人聊天</string>
     <string name="add">添加</string>
     <string name="scan">扫一扫</string>
     <string name="facetoface">面对</string>
+
+    <!--扫一扫相关-->
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+    <string name="scan_result">扫描结果</string>
+    <string name="scan_introduction">以下内容非手机qq提供，请谨慎使用</string>
+    <!--添加相关-->
+    <string name="add_hint">QQ号/手机号/邮箱/群</string>
+    <string name="findby">按条件查找陌生人</string>
+    <string name="findby_hint">条件 ：女、18-22岁、贵阳</string>
+    <string name="addcontactbyphone">添加手机联系人</string>
+    <string name="facetoface_chargroup">面对面建讨论组</string>
+    <!--按条件查找陌生人页面-->
+    <string name="nicknameorkeword">昵称/关键字</string>
+
+    <!--3个切换窗口-->
+    <string name="message">消息</string>
+    <string name="contact">联系人</string>
+    <string name="me">我</string>
+
+    <!--联系人窗口-->
+    <string name="phonebook">通讯录</string>
+    <string name="group">群组</string>
+    <string name="discussgroup">讨论组</string>
+    <!--联系人分组管理相关-->
+    <string name="addgroup">添加分组</string>
+    <string name="inputnewgroupname">请输入新的分组名称</string>
+    <string name="inputgroupnamehint">请输入分组名</string>
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+    <string name="editgroup">编辑分组</string>
+    <string name="deletegroup">删除分组</string>
+    <string name="deletetips">删除该分组后，组内联系人将移至默认分组。</string>
+    <string name="finish">完成</string>
+    <!--我-->
+    <string name="myprofile">我的资料</string>
+    <string name="myfavoriter">我的收藏</string>
+    <string name="myalbum">我的相册</string>
+    <string name="individuation">个性装扮</string>
+    <string name="peoplenearby">附近的人</string>
+    <string name="groupsnearby">附近的群</string>
 </resources>
