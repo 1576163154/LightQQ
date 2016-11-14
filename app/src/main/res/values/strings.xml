@@ -39,7 +39,7 @@
     <string name="facetoface_chargroup">面对面建讨论组</string>
     <!--按条件查找陌生人页面-->
     <string name="nicknameorkeword">昵称/关键字</string>
-
+    <string name="find">查找</string>
     <!--3个切换窗口-->
     <string name="message">消息</string>
     <string name="contact">联系人</string>

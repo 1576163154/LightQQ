@@ -97,5 +97,17 @@
             android:text="35岁以上"
             android:textSize="18sp"/>
     </RelativeLayout>
+    <Button
+        android:id="@+id/btn_findby_find"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn"
+        android:text="@string/find"
+        android:textColor="#ffffff"
+        android:textSize="20sp"/>
 
 </LinearLayout>
