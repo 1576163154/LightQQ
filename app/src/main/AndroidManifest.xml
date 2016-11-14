@@ -26,6 +26,7 @@
         <activity android:name=".activity.AddActivity"/>
         <activity android:name=".activity.AddFriendorGroupActivity"/>
         <activity android:name=".activity.GroupManageActivity"/>
+        <activity android:name=".activity.FindByActivity"/>
         <!--<activity android:name=".activity.LoginActivity"/>-->
         <activity android:name=".activity.RegActivity"/>
     </application>
